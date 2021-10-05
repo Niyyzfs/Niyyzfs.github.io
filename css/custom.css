@@ -1,0 +1,36 @@
+@font-face {
+	font-family: dali;
+	src: url('./fonts/daliangti.ttf')
+}
+@font-face {
+	font-family:beifang;
+	src: url('./fonts/beifangxingshu.ttf');
+}
+.as {
+	text-align: center;
+	font-size: 6.5rem;
+	vertical-align: bottom;
+	line-height: 120px ;
+	font-family:beifang;
+}
+h4{
+	font-family:'楷体';
+}
+ *{
+        margin: 0;
+        padding: 0;
+    }
+    #canvas{
+		 position: fixed;
+		 overflow: auto;
+		 z-index: -1;
+    }
+#canvas1 {
+ position: fixed;
+ pointer-events:none;//鼠标多层响应事件
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+		 z-index: 999;
+
+    }
